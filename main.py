@@ -29,3 +29,10 @@ async def buscar_todas_atas():
 
 
 app.include_router(router_atas, prefix="/infra/api")
+
+
+# reuniao = Reuniao(data=date(2024, 7, 7), hora=time(8, 33), titulo='Alinhamento estratégico', resumo='Resumo X')
+# print(reuniao)
+
+# db.add(reuniao)
+# db.commit()
