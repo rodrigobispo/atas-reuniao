@@ -36,3 +36,4 @@ app.include_router(router_atas, prefix="/infra/api")
 
 # db.add(reuniao)
 # db.commit()
+
